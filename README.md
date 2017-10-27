@@ -1,2 +1,8 @@
-# animate.css
-Animate.css click and play cheatsheet page
+## Animate.css 
+
+A webpage that shows every animation classes from animate.css (developed by daneden).
+
+you can visit the site here [animated.css](https://wonexo.github.io/animatecss)
+:wink:
+
+
