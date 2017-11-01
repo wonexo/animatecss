@@ -30,15 +30,19 @@
 }
 
 .right-block .card-out {
-    width: 300px;
-    height: 300px;
-    border: 0.5px solid rgba(0, 0, 0, .08);
-    box-shadow: 0.5px 1px 2px rgba(236, 102, 102, 0.40);
+    height: calc(100vh - 34px - 1.14rem - 0.912rem); /* 100vh - height h4 - margin top h4 - margin bottom h4*/
     position: relative;
-    top: 20%;
-    left: 65%;
+    text-align: center;
+    overflow: hidden;
     /* right: 50%; */
-    position: fixed;
     /* margin-top: 30%; */
     /* transform: translate(50%, 50%); */
+}
+
+.right-block .card-out img {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -150px;
+	margin-left: -150px;
 }
